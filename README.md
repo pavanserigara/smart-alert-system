@@ -7,13 +7,20 @@ A dual-stack (Python/PHP) application that provides localized weather intelligen
 ### 1. Backend (Python)
 - **Install Dependencies**:
   ```bash
+  python3 -m venv venv
+  source venv/bin/activate
   pip install -r requirements.txt
   ```
 - **Run the Engine**:
   ```bash
   python weather_engine.py
   ```
-  The backend will run on `http://localhost:5000`.
+  **Run the php server**:
+  ```bash
+  php -S localhost:8000
+  ```
+   
+  The backend will run on `http://localhost:5000` and `http://localhost:8000` for php.
 
 ### 2. Database (MySQL)
 - Create a database named `weather_eco`.
