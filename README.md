@@ -35,7 +35,7 @@ A dual-stack (Python/PHP) application that provides localized weather intelligen
 - Open `login.php` in your browser.
 - **Demo Credentials**:
   - Username: `citizen_joe` | `farmer_ted` | `solar_sam` | `admin_main`
-  - Password: `password123`
+  - Password: `password`
 
 ## 📁 Project Structure
 - `weather_engine.py`: Flask API & Weather Logic.
